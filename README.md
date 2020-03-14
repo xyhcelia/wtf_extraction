@@ -42,7 +42,7 @@ for id in ` cat error.list`;do
 done
 ```
 #### 2)extrawtf_gbk_info.pl(for structure variation,also executed in the same directory as the major pipeline)
-first execute the following commands:
+* **first execute the following commands:**
 ```Bash
 find ./ -name "*extra_wtf-*.gbk" -exec ls  {} \; >extra_wtf.gbk.list
 echo -e "regionid\twtf_posi\tinterval\tleft\tright">extra_wtf.txt
