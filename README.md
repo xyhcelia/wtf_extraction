@@ -85,7 +85,7 @@ do
     rm ./${strain}_wtf_extraction/${strain}_$wts-flrvs.fa ./${strain}_wtf_extraction/${strain}_$wts-flrvs.fa.fai ./${strain}_wtf_extraction/${strain}_$wts-flrvs.wtf.txt
 done<extra_locus_assign.txt
 ```
-* **Now,it's the last step.After a simple "cat" command,everything's done.
+* **Now,it's the last step.After a simple "cat" command,everything's done.**
 ```
 cat *_wtf_extraction/*routine.fa   *_wtf_extraction/*-flrvs.wtf.fa >final.wtf.fa
 ```
